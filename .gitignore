@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+storage/
+apify_storage/
+.DS_Store
+Thumbs.db

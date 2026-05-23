@@ -20,7 +20,7 @@ const client = new ApifyClient({
  */
 async function scrapeLinkedInProfile(profileUrl: string) {
     // Replace with your particular Actor's username and actor name on Apify
-    const ACTOR_IDENTIFIER = 'exotic_station/linkedin-profile-scraper';
+    const ACTOR_IDENTIFIER = 'spectre_scrape/linkedin-profile-scraper';
 
     console.log(`Starting scrape for: ${profileUrl}...`);
 

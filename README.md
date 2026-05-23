@@ -1,5 +1,7 @@
 # LinkedIn Profile Scraper — No Cookies Required 👤
 
+[![Run on Apify](https://apify.com/badges/run-on-apify.svg)](https://apify.com/exotic_station/linkedin-profile-scraper)
+
 Welcome to the open-source client wrapper for the **LinkedIn Profile Scraper**! This project provides a fully typed, TypeScript-first Node.js interface for triggering powerful LinkedIn data extraction flows hosted on the Apify Cloud.
 
 ## Highlights & Enterprise Benefits
@@ -15,7 +17,10 @@ By targeting our Apify Cloud Actor, you offload all this headache:
 - **Fingerprinting Evasion:** Custom browser environments that blend seamlessly into LinkedIn's anti-bot system.
 - **Zero Local Footprint:** Execute on our scalable servers and protect your IP address!
 
-🔗 **[View Actor on the Apify Store](https://apify.com/YOUR_APIFY_USERNAME/YOUR_ACTOR_NAME)**
+🔗 **[View Actor on the Apify Store](https://apify.com/exotic_station/linkedin-profile-scraper)**
+
+## Integrations
+This scraper is fully automation-ready! Its structured JSON output maps cleanly and directly into popular no-code tools like **n8n**, **Make**, and **Zapier**, enabling you to build complex CRM workflows instantly without managing code.
 
 ## Prerequisites
 - **Node.js** (v18+)
@@ -37,8 +42,8 @@ By targeting our Apify Cloud Actor, you offload all this headache:
    ```
    *(Alternatively, hardcode it in `src/index.ts` during local testing.)*
 
-3. **Update Actor Information**
-   Inside `src/index.ts`, replace the strings `'YOUR_APIFY_USERNAME/YOUR_ACTOR_NAME'` with your real actor details on the platform.
+3. **Verify Actor Information**
+   Inside `src/index.ts`, the target actor is pre-configured to `'exotic_station/linkedin-profile-scraper'`.
 
 ## Running the Scraper
 Run the predefined TypeScript compilation and execution script:
